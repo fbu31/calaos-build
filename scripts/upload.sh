@@ -20,7 +20,7 @@ function upload_file()
         --retry-delay 10 \
         --max-time 7200 \
         -w "\n\n✅ Upload done in %{time_total}s\nSpeed : %{speed_upload} bytes/s\nSize : %{size_upload} bytes\n" \
-        https://calaos.fr/download/upload
+        https://dl-direct.raoulh.pw/download/upload
 }
 
 TARGET_ARCH="$1"
