@@ -37,7 +37,7 @@ if [ -z "$FILE" ]; then
 fi
 
 #if filename contains rc or alpha, upload to unstable
-if [[ $FILE == *"rc"* ]] || [[ $FILE == *"alpha"* ]]; then
+if [[ $FILE == *"rc"* ]] || [[ $FILE == *"alpha"* ]] || [[ $FILE == *"-dev"* ]]; then
     repo="experimental"
 else
     repo="stable"
